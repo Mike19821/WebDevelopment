@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+#pricing-table{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#pricing-table h3 {
+    font-size: 20px;
+    background: #eee;
+    padding: 20px 10px 20px 10px;
+	margin-bottom: 60px;
+}
+
+#pricing-table .plan {
+	font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+	text-shadow: 0 1px rgba(255,255,255,.8);        
+	background: #fff;      
+	border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-bottom: 20px;
+	color: #333;
+	width: 200px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
+}
+
+
+#pricing-table h3 span {
+	margin: 10px auto -65px;
+	display: block;
+    font: bold;
+    height:100px;
+    width:100px;
+    line-height: 100px;
+    border-radius: 100px;
+    background: #fff;
+    border: 5px solid #fff;;
+	box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+
+}
+
+
+.sp{
+    margin-bottom: 20px;
+}
+
+#pricing-table .signup{
+    text-transform: uppercase;
+    position:relative;
+    color: #fff;
+    border-radius: 3px;
+    background: #72ce3f;
+    padding: 10px;
+    text-decoration: none;
+    font: 14px Arial, Helvetica;
+    background-image: linear-gradient(#72ce3f, #62bc30);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
+}
+
+#pricing-table ul{
+    list-style-type: none
+}
+
+#pricing-table li{
+    padding: 10px;
+    border-top:1px solid #ddd;
+}

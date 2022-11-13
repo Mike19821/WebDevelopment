@@ -1,0 +1,30 @@
+.pics{
+    display:grid;
+    justify-content: center;
+    row-gap:10px
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:768px){
+    .pics{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .pics{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+
+    .large{
+        grid-column: 2 / 4;
+        grid-row: 1 / 3;
+    }
+}

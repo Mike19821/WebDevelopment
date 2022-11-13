@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+.pics{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-content: flex-start;
+
+}
+figure{
+    padding: 20px;
+}
+
+figure > img{
+    will-change: transform;
+    transition: transform .3s;
+    width: 300px;
+}
+
+figure:hover img{
+    transform: scale(0.9);
+}
+figure:hover img{
+    transform: scale(1.111);
+}
